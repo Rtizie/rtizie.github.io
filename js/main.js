@@ -1,7 +1,7 @@
 var t=setInterval(scrollFunction,1000);
 
 function scrollFunction() {
-    if (window.innerWidth > 1024) {
+    if (window.innerWidth > 1060) {
         if(document.body.scrollTop != 0){
             topFunction();
         }
