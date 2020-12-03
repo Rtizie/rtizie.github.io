@@ -1,12 +1,10 @@
+let counter = 0;
+
 incrementAndShowValue();
 
-function incrementAndShowValue() {
-  var value = getCookie("visitcounter") || 0;
-  var newValue = ("00000" + (Number(value) + 1)).slice(-6);
+function incrementAndShowValue() { 
   var container = document.getElementById("counterVisitor");
-  String(newValue).split("").forEach(function(item, index) {
-    container.children[index].innerHTML = item;
-  });
+  container.innerText = counter;
+  console.log(counter);
   counter++;
-  setCookie("visitcounter", counter);
 }
