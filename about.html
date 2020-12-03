@@ -7,10 +7,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Texturina:wght@200&display=swap" rel="stylesheet">
 		<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
 		<script src="https://kit.fontawesome.com/ec9bc62d6e.js" crossorigin="anonymous"></script>
-		<script src="js/jquery.min.js" ></script>
-		<script>
-			XMLHttpRequest.setRequestHeader('Access-Control-Allow-Origin', 'https://www.freevisitorcounters.com/en/home/stats/id/771119')
-		</script>
+	
 	<body>
 		<div id="SideNav" class="sidenav">
 		  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -29,20 +26,11 @@
 
         <main>
 			<button>TEST2</button>
+			<a href="http://www.quick-counter.net/" title="HTML hit counter - Quick-counter.net"><img src="http://www.quick-counter.net/aip.php?tp=di&tz=Europe%2FLondon" alt="HTML hit counter - Quick-counter.net" border="0" /></a>
 			<p id="output"></p>
-			<script type='text/javascript' src='https://www.freevisitorcounters.com/auth.php?id=a30aeb029366cda07e1a8d5e2f95eb710deb7012'></script>
         </main>
 		
         <script>
-			$(document).ready(function(){
-			$("button").click(function(){
-				$.get("https://www.freevisitorcounters.com/en/home/stats/id/771119", function(data, status){
-					$("#output").text("Data: " + data);
-					});
-				});
-			});
-			
-
 			function openNav() {
 			  document.getElementById("SideNav").style.width = "250px";
 			}
