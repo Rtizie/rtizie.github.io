@@ -35,7 +35,6 @@ body{
   	color: white;
   	margin: 0; 
   	height: 100%; 
-
 }
 
 .icon{
@@ -89,4 +88,11 @@ main{
 @keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+#mainContent h2{
+    font-size: 15vmin;
+    margin-bottom: 0;
+}
+#mainContent i{
+    font-size: 3vmin;
 }

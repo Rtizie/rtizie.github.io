@@ -1,5 +1,30 @@
 body{
   	overflow: hidden;
 }
-
-
+#creators{
+    float: right;
+    width: 30%;
+    padding-right: 48px;
+    margin-top:128px;
+}
+#creators div{
+    font-size: 13vmin;
+}
+#creators div p{
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+#creators p:first-child{
+    font-weight: bold;
+}
+#creators p:last-child{
+    font-size: 5vmin
+}
+#mainContent{
+    margin-left:200px;
+    padding-right: 10%;
+    width: 30%;
+    height: 95%;
+    float: left;
+    border-right: white 1px solid ;
+}
