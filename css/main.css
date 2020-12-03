@@ -1,12 +1,12 @@
 /* width */
 ::-webkit-scrollbar {
-    width: 10px;
-    background:black;
+	width: 10px;
+	background:black;
 }
 
 /* Track */
 ::-webkit-scrollbar-track {
-    background:#1D1F24;
+	background:#1D1F24;
 }
 
 /* Handle */
@@ -22,7 +22,7 @@ nav{
 	padding: 24px;
  	font-size: 36px;
   	opacity: 0;
-  	animation: fadein 2s 0s forwards;
+	animation: fadein 2s 0s forwards;
 }
 
 nav a{
@@ -34,8 +34,8 @@ body{
 	background: linear-gradient(to top right, #2c3038 0%,#1a1c21 100%);
   	color: white;
   	margin: 0; 
-    height: 100%; 
-    overflow-x: hidden;
+	min-height: 100%; 
+	overflow-x: hidden;
 }
 
 .icon{
@@ -53,60 +53,60 @@ main{
   	animation-fill-mode: forwards;  
 }
 .sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    right: 0;
-    background: linear-gradient(to top right, #2c3038 0%,#111316 100%);
-    overflow-x: hidden;
-    transition: 1s;
-    padding-top: 60px;
+	min-height: 100%;
+	width: 0;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	right: 0;
+	background: linear-gradient(to top right, #2c3038 0%,#111316 100%);
+	overflow-x: hidden;
+	transition: 1s;
+	padding-top: 60px;
 }
 
 .sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s;
+	padding: 8px 8px 8px 32px;
+	text-decoration: none;
+	font-size: 25px;
+	color: #818181;
+	display: block;
+	transition: 0.3s;
 }
 
 .sidenav a:hover {
-    color: #f1f1f1;
+	color: #f1f1f1;
 }
 
 .sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 25px;
-    font-size: 36px;
-    margin-left: 50px;
+	position: absolute;
+	top: 0;
+	right: 25px;
+	font-size: 36px;
+	margin-left: 50px;
 }
 
 @keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
+	from { opacity: 0; }
+	to   { opacity: 1; }
 }
 #mainContent h2{
-    font-size: 15vmin;
-    margin-bottom: 0;
+	font-size: 15vmin;
+	margin-bottom: 0;
 }
 #mainContent i{
-    font-size: 3vmin;
+	font-size: 3vmin;
 }
 #creators p:first-child{
-    font-weight: bold;
+	font-weight: bold;
 }
 #creators p:last-child{
-    font-size: 5vmin
+	font-size: 5vmin
 }
 #creators div{
-    font-size: 13vmin;
+	font-size: 13vmin;
 }
 #creators div p{
-    margin-top: 0px;
-    margin-bottom: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
 }
