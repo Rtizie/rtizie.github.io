@@ -1,5 +1,6 @@
 body{
-    overflow-y: auto;
+    overflow-y: visible;
+    overflow-x: hidden;
 }
 #creators{
     text-align: center;
