@@ -27,7 +27,6 @@ nav, #particles-js{
 	animation: fadein 2s 0s forwards;
 }
 nav a{
-	padding-right: 16px;
 	color: white;
 }
 
@@ -42,7 +41,9 @@ body{
 .icon{
 	float: right;
 	font-size: 24px;
-	padding: 16px;
+	padding: 8px;
+	padding-right: 16px;
+	padding-left: 16px;
 }
 main{
 	border-top:white 1px solid;
@@ -121,4 +122,12 @@ main{
 	background-size: cover;
 	background-position: 50% 50%;
 	opacity: 0;
+}
+#logo{
+	padding: 0;
+	padding-bottom: 0;
+	margin-bottom: 0;
+	color: white;
+	text-decoration: none;
+	font-family:'Great Vibes', cursive;
 }

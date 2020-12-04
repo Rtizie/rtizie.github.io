@@ -4,11 +4,11 @@ body{
 #creators{
     float: right;
     width: 30%;
-    padding-right: 48px;
-    margin-top:128px;
+    margin-right: 64px;
+    margin-top:256px;
 }
 #mainContent{
-	margin-top: 2%;
+	margin-top: 1%;
     margin-left:200px;
 	padding-right: 5%;
 	padding-top: 0px;
