@@ -22,9 +22,10 @@ nav{
 	padding: 24px;
  	font-size: 36px;
   	opacity: 0;
+}
+nav, #particles-js{
 	animation: fadein 2s 0s forwards;
 }
-
 nav a{
 	padding-right: 16px;
 	color: white;
@@ -118,5 +119,5 @@ main{
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
-	opacity: 0.5;
+	opacity: 0;
 }
